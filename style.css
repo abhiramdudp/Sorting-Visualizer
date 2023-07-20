@@ -1,0 +1,197 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: large;
+  font-weight: bold;
+  font-family:Helvetica, Arial, sans-serif;
+}
+header .nav-heading{
+   background-image:url("images/hum-1.png"),url("images/heads.png"),url("images/hum-2.png");
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-size: 15% 130%,5% 70%,18% 110%;
+  background-position:center right,center left 38%,center left;
+  color:ghostwhite;
+  background-color:#8d99a2;
+  font-size: 25px;
+  text-transform:uppercase;
+  text-align:center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:bold;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+}
+
+nav {
+  background-color:#0d1635;
+  color: floralwhite;
+  display: grid;
+  grid-template-columns: 35% 80%;
+  padding: 2% 13% 1%;
+}
+header p{
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+nav .array-inputs {
+  display: grid;
+  grid-row-gap: 2%;
+    grid-template-columns: 70% 60% ;
+    text-transform:uppercase;
+    font-family: Catamaran;
+     font-weight: bolder;
+  place-content: center;
+  padding: 2% 0% 1% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 3% 3%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 3% 3%;
+}
+nav .generate_array{
+  padding-left: 60%;
+  padding-top: 2%;
+}
+nav .generate_array #a_generate {
+       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style:normal;
+    border-radius:10px;
+    text-transform:capitalize;
+  padding: 1% 8% 2%;
+  color:#295F6B;
+}
+
+nav .generate_array #a_generate:hover {
+   color: #320073;
+ background-color: lightgreen;
+  cursor:pointer;
+    box-shadow:0 0 10px  #9BB7D4,0 0 40px  #9BB7D4,0 0 80px  #9BB7D4;
+    transition-delay:0.5s;
+}
+
+.header_right {
+ background-color:#0d1635;
+}
+
+.header_right .algos {
+  display:grid;
+      grid-template-columns : repeat(5, 20%);
+}
+.header_right .algos button:hover {
+  background-color: #8d99a2;
+  cursor: pointer;
+}
+.header_right .algos button {
+  background-color:#8d99a2;
+  border: none;
+  color: black;
+  outline: none;
+  padding: 2% 0%;
+  font-size: large;
+  font-weight: bold;
+  text-transform:uppercase;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 2px solid black;
+border-radius: 8px;
+transition:0.8s;
+}
+.header_right .algos .butt_locked {
+  background-color: #8d99a2;
+  color:floralwhite;
+  cursor: pointer;
+}
+.header_right .algos .butt_locked:hover {
+  background-color:red;
+  cursor: pointer;
+}
+.header_right .algos .butt_unselected:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.header_right .algos .butt_selected:hover {
+  background-color:lightgreen;
+  box-shadow:0 0 10px  white,0 0 40px white;
+  color:black;
+  cursor: pointer;
+}
+section {
+  background-image:url("images/1.png");
+  background-size:80% 200%;
+  background-repeat:  repeat;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  
+}
+section .ran_values{
+  color:white;
+  position:relative;
+  padding-top:2%;
+  text-align:center;
+}
+footer{
+  background-color:hsl(226.5,60.6%,14.9%);
+  color: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50%  50%;
+      grid-template-columns: 50% 50%;
+
+}
+
+
+footer .Complexity_Containers {
+  margin-top: 2%;
+  
+}
+
+footer .Complexity_Containers .Pair_Definitions {
+  margin-top: 2%;
+}
+
+footer .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+footer .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: smaller;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+footer #Info_Cont1 {
+  font-style:normal;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
+
+footer #Info_Cont1 h3 {
+  text-decoration: underline;
+}
+
+footer #Info_Cont2 {
+   font-style:normal;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
+
+footer #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
