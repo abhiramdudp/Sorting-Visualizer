@@ -1,4 +1,4 @@
-# Sorting_Visualizer
+# Sorting-Visualizer
 
 A web application showcasing the inner workings of sorting algorithms.
 
@@ -22,7 +22,7 @@ Features:
 4) Time and Space complexity of algorithm being visualized.
 
 
-Project link :
+## Project link :
 
 
 Kindly Check this Out!!, Hope you enjoy this :)
